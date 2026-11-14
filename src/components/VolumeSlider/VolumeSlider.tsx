@@ -1,4 +1,3 @@
-
 import { useId, useState } from 'react';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
@@ -31,7 +30,7 @@ export default function VolumeSlider({
   return (
     <Box sx={{ width: 300 }}>
       <Typography id={labelId} gutterBottom>
-      {label}
+        {label}
       </Typography>
       <Slider
         value={value}
